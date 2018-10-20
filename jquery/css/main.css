@@ -1,0 +1,57 @@
+body {
+  background: #CD853F;
+}
+
+form {
+  padding: 20px;
+  width: 50%;
+  background: #eAeAeA;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+form .form-group {
+  width: 100%;
+}
+form .form-group label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+form .form-group input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  display: block;
+  box-shadow: 3px 3px 3px #e5e5e5;
+}
+form .form-group input[type=radio] {
+  width: auto;
+  display: inline-block;
+}
+form .form-group .btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #e5e5e5;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+form .form-group .btn.btn-primary {
+  background: blue;
+}
+form .form-group .btn.btn-secondary {
+  background: navy;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: navy;
+}
+
+/*# sourceMappingURL=main.css.map */

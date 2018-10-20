@@ -1,0 +1,61 @@
+
+$elMejorColor:#CD853F;
+$primaryBlue:blue;
+$secondaryBlue:navy;
+
+body{
+	background:$elMejorColor;
+}
+
+form{
+	padding:20px;
+	width:50%;
+	background:#eAeAeA;
+	border-radius:5px;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	
+	.form-group{
+		width:100%;
+		label{
+			font-size: 14px;
+			font-weight: bold;
+			color:#333;
+		}
+		input{
+			border:1px solid #ccc;
+			border-radius:5px;
+			height:30px;
+			width:100%;
+			display:block;
+			box-shadow: 3px 3px 3px #e5e5e5;
+			&[type=radio]{
+				width:auto;
+				display:inline-block;
+			}
+		}
+		.btn{
+			width:100px;
+			height:30px;
+			border-radius:5px;
+			box-shadow: 3px 3px 3px #e5e5e5;
+			margin:10px;
+			padding:10px;
+			color:white;
+			&.btn-primary{
+				background:$primaryBlue;
+			}
+			&.btn-secondary{
+				background:$secondaryBlue;
+			}
+		}
+	}
+}
+
+.square{
+    width:100px;
+    height:100px;
+    background:navy;
+}
